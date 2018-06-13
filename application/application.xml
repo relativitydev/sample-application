@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ArtifactViewFields>
     <ArtifactViewField>
@@ -49,30 +49,44 @@
   </ArtifactViewFields>
   <Assemblies>
     <Assembly>
-      <ArtifactId>1022030</ArtifactId>
+      <ArtifactId>1022037</ArtifactId>
       <Keywords />
       <Name>SamplePreSaveEventHandler.dll</Name>
       <Notes />
     </Assembly>
     <Assembly>
-      <ArtifactId>1022031</ArtifactId>
+      <ArtifactId>1022038</ArtifactId>
       <Keywords />
       <Name>SampleAgent.dll</Name>
       <Notes />
     </Assembly>
   </Assemblies>
   <ResourceFiles />
-  <ExternalTabs />
-  <ExtractionDate>2018-06-09T21:43:42.2344079Z</ExtractionDate>
+  <ExternalTabs>
+    <ExternalTab>
+      <ArtifactId>1045244</ArtifactId>
+      <DisplayOrder>200</DisplayOrder>
+      <ExternalLink>  %applicationPath%/CustomPages/B600379D-F829-485B-92B2-C2D0DFDCC196/Home/Index</ExternalLink>
+      <Guid>21caba23-6fbe-4ce4-bfd3-4bea289eca22</Guid>
+      <IsDefault>false</IsDefault>
+      <Name>Sample Custom Page</Name>
+      <ObjectArtifactTypeId xsi:nil="true" />
+      <ParentArtifactId>1045228</ParentArtifactId>
+      <TabDisplay>0</TabDisplay>
+      <Visible>true</Visible>
+      <ApplicationVersion>0.0.0.12</ApplicationVersion>
+    </ExternalTab>
+  </ExternalTabs>
+  <ExtractionDate>2018-06-13T23:28:47.3655657Z</ExtractionDate>
   <Guid>b600379d-f829-485b-92b2-c2d0dfdcc196</Guid>
   <Name>Sample Application</Name>
   <Objects>
     <Object>
       <ActiveSyncs>
         <ActiveSync>
-          <Id>1045238</Id>
+          <Id>1045239</Id>
           <ArtifactTypeId>1002057</ArtifactTypeId>
-          <AssemblyArtifactId>1022030</AssemblyArtifactId>
+          <AssemblyArtifactId>1022037</AssemblyArtifactId>
           <ClassName>SamplePreSaveEventHandler.PreSaveEventHandler</ClassName>
           <Description>SamplePreSaveEventHandler</Description>
           <ExecutionType>1</ExecutionType>
@@ -81,12 +95,12 @@
           <ApplicationVersion>0.0.1.1</ApplicationVersion>
         </ActiveSync>
       </ActiveSyncs>
-      <ArtifactId>1045234</ArtifactId>
+      <ArtifactId>1045237</ArtifactId>
       <DescriptorArtifactTypeId>1002057</DescriptorArtifactTypeId>
       <Fields>
         <Field>
           <AllowHTML>false</AllowHTML>
-          <ArtifactId>1045236</ArtifactId>
+          <ArtifactId>1045240</ArtifactId>
           <ArtifactViewFieldId>1003912</ArtifactViewFieldId>
           <AssociativeArtifactTypeId xsi:nil="true" />
           <Codes />
@@ -142,11 +156,11 @@
       <Layouts>
         <Layout>
           <OverwriteProtection>true</OverwriteProtection>
-          <ArtifactId>1045233</ArtifactId>
+          <ArtifactId>1045242</ArtifactId>
           <Categories>
             <Category>
-              <CategoryId>1002426</CategoryId>
-              <LayoutArtifactId>1045233</LayoutArtifactId>
+              <CategoryId>1002427</CategoryId>
+              <LayoutArtifactId>1045242</LayoutArtifactId>
               <Order>0</Order>
               <Title>Default Category</Title>
               <Collapsible>false</Collapsible>
@@ -161,14 +175,14 @@
           <LayoutArtifactTypeId>1002057</LayoutArtifactTypeId>
           <LayoutFields>
             <LayoutField>
-              <CategoryId>1002426</CategoryId>
+              <CategoryId>1002427</CategoryId>
               <ColSpan>1</ColSpan>
               <Column>1</Column>
-              <FieldArtifactId>1045231</FieldArtifactId>
+              <FieldArtifactId>1045234</FieldArtifactId>
               <FieldDisplayTypeId>0</FieldDisplayTypeId>
               <FullTextFieldHeight xsi:nil="true" />
               <IsReadOnly>false</IsReadOnly>
-              <LayoutArtifactId>1045233</LayoutArtifactId>
+              <LayoutArtifactId>1045242</LayoutArtifactId>
               <Order>1</Order>
               <PickerViewArtifactId xsi:nil="true" />
               <RepeatColumn xsi:nil="true" />
@@ -199,7 +213,7 @@
       <SystemFields>
         <SystemField>
           <AllowHTML>false</AllowHTML>
-          <ArtifactId>1045226</ArtifactId>
+          <ArtifactId>1045229</ArtifactId>
           <ArtifactViewFieldId>1003904</ArtifactViewFieldId>
           <AssociativeArtifactTypeId xsi:nil="true" />
           <Codes />
@@ -251,7 +265,7 @@
         </SystemField>
         <SystemField>
           <AllowHTML>false</AllowHTML>
-          <ArtifactId>1045227</ArtifactId>
+          <ArtifactId>1045230</ArtifactId>
           <ArtifactViewFieldId>1003905</ArtifactViewFieldId>
           <AssociativeArtifactTypeId xsi:nil="true" />
           <Codes />
@@ -303,7 +317,7 @@
         </SystemField>
         <SystemField>
           <AllowHTML>false</AllowHTML>
-          <ArtifactId>1045228</ArtifactId>
+          <ArtifactId>1045231</ArtifactId>
           <ArtifactViewFieldId>1003906</ArtifactViewFieldId>
           <AssociativeArtifactTypeId xsi:nil="true" />
           <Codes />
@@ -355,7 +369,7 @@
         </SystemField>
         <SystemField>
           <AllowHTML>false</AllowHTML>
-          <ArtifactId>1045229</ArtifactId>
+          <ArtifactId>1045232</ArtifactId>
           <ArtifactViewFieldId>1003907</ArtifactViewFieldId>
           <AssociativeArtifactTypeId xsi:nil="true" />
           <Codes />
@@ -407,7 +421,7 @@
         </SystemField>
         <SystemField>
           <AllowHTML>false</AllowHTML>
-          <ArtifactId>1045230</ArtifactId>
+          <ArtifactId>1045233</ArtifactId>
           <ArtifactViewFieldId>1003908</ArtifactViewFieldId>
           <AssociativeArtifactTypeId xsi:nil="true" />
           <Codes />
@@ -459,7 +473,7 @@
         </SystemField>
         <SystemField>
           <AllowHTML>false</AllowHTML>
-          <ArtifactId>1045231</ArtifactId>
+          <ArtifactId>1045234</ArtifactId>
           <ArtifactViewFieldId>1003911</ArtifactViewFieldId>
           <AssociativeArtifactTypeId xsi:nil="true" />
           <Codes />
@@ -513,20 +527,20 @@
       <SystemLayouts />
       <SystemViews />
       <Tab>
-        <ArtifactId>1045235</ArtifactId>
+        <ArtifactId>1045238</ArtifactId>
         <DisplayOrder>1000000040</DisplayOrder>
         <Guid>b0d3eeec-6e11-41d3-8c72-c9c9323ca2b4</Guid>
         <IsDefault>false</IsDefault>
         <Name>Sample Object</Name>
         <ObjectArtifactTypeId>1002057</ObjectArtifactTypeId>
-        <ParentArtifactId>1003663</ParentArtifactId>
+        <ParentArtifactId>1045228</ParentArtifactId>
         <TabDisplay>0</TabDisplay>
         <Visible>true</Visible>
-        <ApplicationVersion>0.0.1.0</ApplicationVersion>
+        <ApplicationVersion>0.0.0.11</ApplicationVersion>
       </Tab>
       <Views>
         <View>
-          <ArtifactId>1045232</ArtifactId>
+          <ArtifactId>1045241</ArtifactId>
           <ArtifactTypeId>1002057</ArtifactTypeId>
           <AvailableInObjectTab>true</AvailableInObjectTab>
           <Guid>d4ee19bb-6194-4351-a236-997f7976071b</Guid>
@@ -569,29 +583,29 @@
   </Objects>
   <ParentTabs />
   <RelativityVersion>9.5.169.7</RelativityVersion>
-  <Version>0.0.1.1</Version>
+  <Version>0.0.0.12</Version>
   <TabDisplay>false</TabDisplay>
   <OriginSignature>d40fa95a-15e3-4a57-ad29-ba9b98661d53</OriginSignature>
   <MasterScripts />
   <ApplicationScripts />
   <CustomPages>
     <CustomPage>
-      <ArtifactID>1045240</ArtifactID>
+      <ArtifactID>1045243</ArtifactID>
       <Guid>98f8d3f6-760e-4085-b8ff-b8ebd5c15ed2</Guid>
       <ApplicationVersion>0.0.1.1</ApplicationVersion>
       <Name>SampleCustomPage</Name>
       <FileName>SampleCustomPage.zip</FileName>
-      <Size>1884948</Size>
+      <Size>1948076</Size>
       <Keywords />
       <Notes />
-      <Hash />
+      <Hash>00-8E-C6-2C-28-F4-0A-26-75-81-B5-02-6E-84-E9-36-BA-5A-AD-3E</Hash>
     </CustomPage>
   </CustomPages>
   <AgentTypes>
     <AgentType>
-      <ArtifactId>1045239</ArtifactId>
+      <ArtifactId>1045227</ArtifactId>
       <Guid>311c5570-eeaa-4a38-b2d8-59f51cc2d093</Guid>
-      <ApplicationVersion>0.0.1.1</ApplicationVersion>
+      <ApplicationVersion>0.0.0.12</ApplicationVersion>
       <AgentTypeName>Agent Name</AgentTypeName>
       <FullNameSpace>SampleAgent.Relativity_Agent</FullNameSpace>
       <DefaultInterval>5</DefaultInterval>
@@ -621,30 +635,31 @@
   <GlobalApplication>false</GlobalApplication>
   <RelativityScriptIds />
   <ViewIds>
-    <Id>1045232</Id>
+    <Id>1045241</Id>
   </ViewIds>
   <DashboardIds />
   <LayoutIds>
-    <Id>1045233</Id>
+    <Id>1045242</Id>
   </LayoutIds>
   <FieldIds>
-    <Id>1045226</Id>
-    <Id>1045227</Id>
-    <Id>1045228</Id>
     <Id>1045229</Id>
     <Id>1045230</Id>
     <Id>1045231</Id>
-    <Id>1045236</Id>
+    <Id>1045232</Id>
+    <Id>1045233</Id>
+    <Id>1045234</Id>
+    <Id>1045240</Id>
   </FieldIds>
   <ChoiceIds />
   <ObjectTypeIds>
-    <Id>1045234</Id>
+    <Id>1045237</Id>
   </ObjectTypeIds>
   <TabIds>
-    <Id>1045235</Id>
+    <Id>1045238</Id>
+    <Id>1045244</Id>
   </TabIds>
   <CustomPageIds>
-    <Id>1045240</Id>
+    <Id>1045243</Id>
   </CustomPageIds>
   <Locked>true</Locked>
 </Application>
