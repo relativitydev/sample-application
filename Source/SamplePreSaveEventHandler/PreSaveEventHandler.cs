@@ -22,7 +22,7 @@ namespace SamplePreSaveEventHandler
 			{
 				retVal.Success = false;
 				string userName = this.Helper.GetAuthenticationManager().UserInfo.FullName;
-				retVal.Message = String.Format("Hello {0}! You cannot create an object of this type, but that is expected. This is to prove event handler worked.");
+				retVal.Message = String.Format("Hello {0}! You cannot create an object of this type, but that is expected. This is to prove event handler worked.", userName);
 
 				IAPILog logger = Helper.GetLoggerFactory().GetLogger();
 				logger.LogVerbose("Log information throughout execution.");
